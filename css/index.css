@@ -4,18 +4,33 @@
   list-style: none;
   background-color: #add8fb;    /*添加一个背景颜色*/
 }
-#small-header{
+#header{
+  margin-top: 50px;
+  max-width: 100%;
+}
+#header .logo{
+  width: 70px;
+  height: 70px;
+  max-width: 100%;
+  margin-left: 50px;
+}
+#header .logo img{
+  width: 100px;
+  height: 100px;
+  height: auto;
+}
+#header .small-header{
   text-align: right;
-  margin-top: 30px;
+  margin-top: -30px;
   margin-right: 45px;
   font-size: 20px;
 }
-#small-header a{
+#header .small-header a{
   margin-right: 30px;                  /*设置右边距为10px*/
   font-size:25px;                      /*字体大小为25px*/
   color: #2f346b;                 /*设置字体颜色*/
-  text-decoration: none;              /*去掉下划线*/
+  text-decoration: none;            /*去掉下划线*/
 }
-#small-header a:last-child{            /*这一块是为了移除最后一个超链接的右边距*/
+#header .small-header a:last-child{            /*这一块是为了移除最后一个超链接的右边距*/
   margin-right: 0px;
 }
