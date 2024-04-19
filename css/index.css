@@ -5,7 +5,7 @@
   background-color: #add8fb;    /*添加一个背景颜色*/
 }
 #header{
-  margin-top: 50px;
+  margin-top: 35px;
   max-width: 100%;
 }
 #header .logo{
@@ -15,13 +15,13 @@
   margin-left: 50px;
 }
 #header .logo img{
-  width: 100px;
-  height: 100px;
+  width: 95px;
+  height: 95px;
   height: auto;
 }
 #header .small-header{
   text-align: right;
-  margin-top: -30px;
+  margin-top: -50px;
   margin-right: 45px;
   font-size: 20px;
 }
