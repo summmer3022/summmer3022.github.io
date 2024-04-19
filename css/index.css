@@ -29,7 +29,7 @@
   margin-right: 30px;                  /*设置右边距为10px*/
   font-size:25px;                      /*字体大小为25px*/
   color: #2f346b;                 /*设置字体颜色*/
-  text-decoration: none;            /*去掉下划线*/
+  text-decoration: none;               /*去掉下划线*/
 }
 #header .small-header a:last-child{            /*这一块是为了移除最后一个超链接的右边距*/
   margin-right: 0px;
