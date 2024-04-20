@@ -1,5 +1,5 @@
 * {
-  margin: 0px;
+  margin: 0 auto;
   padding: 0px;
   list-style: none;
   background-color: #add8fb;    /*添加一个背景颜色*/
@@ -7,22 +7,24 @@
 #header{
   margin-top: 35px;
   max-width: 100%;
+  height: 280px;
 }
 #header .logo{
-  width: 70px;
-  height: 70px;
+  width: 100%;
+  height: 100px;
   max-width: 100%;
-  margin-left: 50px;
+  
 }
 #header .logo img{
   width: 95px;
   height: 95px;
   height: auto;
+  margin-left: 50px;
 }
 #header .small-header{
+  width: 95%;
   text-align: right;
   margin-top: -50px;
-  margin-right: 45px;
   font-size: 20px;
 }
 #header .small-header a{
@@ -33,4 +35,12 @@
 }
 #header .small-header a:last-child{            /*这一块是为了移除最后一个超链接的右边距*/
   margin-right: 0px;
+}
+/*header部分结束*/
+#writer{
+  text-align: left;
+  margin-left: 25%;
+}
+#writer .writer-hi{
+  font-size: 240%; 
 }
