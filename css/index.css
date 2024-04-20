@@ -1,15 +1,23 @@
+/*字体引用区域*/
+/*江西拙楷*/
+@font-face {
+  font-family: 'Jiangxizhuokai';
+  src: url(/font/index/Jiangxi_Humble_Kai.ttf);
+}
+/*正文开始*/
 * {
   margin: 0 auto;
   padding: 0px;
   list-style: none;
   background-color: #add8fb;    /*添加一个背景颜色*/
 }
+/*header部分kai'shi*/
 #header{
   margin-top: 35px;
   max-width: 100%;
   height: 280px;
 }
-#header .logo{
+#header .logo{  
   width: 100%;
   height: 100px;
   max-width: 100%;
@@ -17,7 +25,6 @@
 }
 #header .logo img{
   width: 95px;
-  height: 95px;
   height: auto;
   margin-left: 50px;
 }
@@ -39,8 +46,33 @@
 /*header部分结束*/
 #writer{
   text-align: left;
-  margin-left: 25%;
+  margin-left: 15%;
 }
 #writer .writer-hi{
   font-size: 240%; 
 }
+/*实现打字机效果的CSS代码片段*/
+#writer .writer-text{
+  font-family: 'Jiangxizhuokai'; /* 设置字体样式*/
+  display: inline-block; /* 行内块元素显示 */
+  position: relative; /* 相对定位 */
+  font-size: 40px; /* 设置字体大小为40像素 */
+  height: 60px; /* 设置高度为60像素 */
+  line-height: 60px; /* 设置行高为60像素 */
+  color: #1d334b; /* 设置颜色为RGB(245, 245, 245) 即浅灰色 */
+}
+ /* 产生光标闪烁的效果 */
+ #writer .writer-text::after{
+  content: '|';
+  color:#041235;
+  animation: blink 1s infinite;
+}
+@keyframes blink{
+  from{
+      opacity: 0;
+  }
+  to{
+      opacity: 1;
+  }
+}
+/**/
