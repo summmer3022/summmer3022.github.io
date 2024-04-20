@@ -50,5 +50,5 @@ document.addEventListener('visibilitychange', documentVisibilityChange);
               xiaBiao=0; 
           }
       }
-
   },200)
+
