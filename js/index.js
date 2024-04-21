@@ -11,7 +11,15 @@ document.addEventListener('visibilitychange', documentVisibilityChange);
   //获取.text标签
   const text = document.querySelector('.writer-text');
    //定义数组，里面放上文本
-  const txt  =["来自陕西西安","啥都会一点就是不大精","今日精神状态：太TM良好了","你说到底为什么都是我的错（雾）"]; 
+  const txt  =[
+    "来自陕西西安","啥都会一点就是不大精ㄟ( ▔, ▔ )ㄏ",
+    "今日精神状态：太TM良好了",
+    "你说到底为什么都是我的错（雾）",
+    "燕子，没有你你怎么活啊！！",
+    "I won't try to pink the moon,I want zhe moon to come to me.",
+    "我的广州之旅：《嘉禾乱葬岗》",
+    "《谁知道一个地铁口tnnd七个出口呀喂！！！！》"
+  ]; 
   //定义当前要显示的字符串的第几个字符
   var index=0;
   //定义文本数组的下标
@@ -50,7 +58,7 @@ document.addEventListener('visibilitychange', documentVisibilityChange);
               xiaBiao=0; 
           }
       }
-  },200)
+  },300)
 //黑塔转圈片段
 //设置按钮五秒后出现
 window.onload=function(){
