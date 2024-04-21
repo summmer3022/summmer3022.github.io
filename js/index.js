@@ -61,3 +61,11 @@ window.onload=function(){
     }
   },5000);
 }
+//点击按钮，黑塔转圈
+var ht_gif_files=[
+  'audio/heita-audio/gululu.mp3',
+  'audio/heita-audio/gururu.mp3',
+  'audio/heita-audio/要坏掉了.mp3',
+  'audio/heita-audio/转圈圈.mp3',
+  'audio/heita-audio/转圈圈咯.mp3'
+];

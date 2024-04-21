@@ -102,3 +102,21 @@
 	    cursor: pointer;
 	    transition: background-color 0.1s ease-in-out, scale 0.1s cubic-bezier(0.075, 0.82, 0.165, 1);
 	}
+  /*黑塔转圈圈效果css片段*/
+  #heita .heita-gif{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+  }
+  #heita .heita-gif img{
+    position: absolute;
+    right: 0;
+    width: 20%;
+    height: auto;
+    animation: floatleft 2s linear forwards;
+  }
+  @keyframes floatleft {
+    0%{right: 0;}
+    100%{left:0;opacity:0;}
+  }
