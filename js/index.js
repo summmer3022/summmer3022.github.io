@@ -51,4 +51,13 @@ document.addEventListener('visibilitychange', documentVisibilityChange);
           }
       }
   },200)
-
+//黑塔转圈片段
+//设置按钮五秒后出现
+window.onload=function(){
+  setTimeout(function(){
+    var buttons=document.getElementsByClassName('heita-button');
+    if (buttons.length>0) {
+      buttons[0].style.display='block';
+    }
+  },5000);
+}
